@@ -211,38 +211,7 @@
             <p>&copy; 2025 Copyright. All rights reserved.</p>
         </div>
     </footer>
-
-    <div id="resumeModal" class="resume-modal">
-        <div class="resume-modal-content">
-            <span class="resume-close" id="closeResumeBtn">&times;</span>
-            <iframe src="assets/Muhammed Muhsin P - Resume.pdf" frameborder="0"></iframe>
-        </div>
-    </div>
-    <script>
-        // Resume Modal Logic
-        const openBtn = document.getElementById('openResumeBtn');
-        const modal = document.getElementById('resumeModal');
-        const closeBtn = document.getElementById('closeResumeBtn');
-        const body = document.body;
-
-        openBtn.addEventListener('click', function(e) {
-            e.preventDefault();
-            modal.classList.add('show');
-            body.classList.add('blur-bg');
-        });
-
-        closeBtn.addEventListener('click', function() {
-            modal.classList.remove('show');
-            body.classList.remove('blur-bg');
-        });
-
-        window.addEventListener('click', function(e) {
-            if (e.target === modal) {
-                modal.classList.remove('show');
-                body.classList.remove('blur-bg');
-            }
-        });
-    </script>
+    
     <script src="js/main.js"></script>
 </body>
 </html>
