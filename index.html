@@ -33,11 +33,11 @@
                 </div>
                 <div class="hero-content">
                     <h1>Muhammed Muhsin P</h1>
-                    <h2>Graphic Designer <span class="dot">•</span> Video Editor <span class="dot">•</span> Engineer</h2>
+                    <h2>Graphic Designer <span class="dot">•</span> Video Editor <span class="dot">•</span> UI/UX Designer<span class="dot">•</span> Engineer</h2>
                     <p class="hero-tagline">Blending creativity and code to craft impactful digital experiences.</p>
                     <div class="hero-buttons">
                         <a href="#contact" class="contbtn">Let's Connect</a>
-                        <a href="assets/Muhammed Muhsin P - Resume.pdf" class="resbtn" target="_blank" rel="noopener noreferrer">View My Resume</a>
+                        <a href="#" class="resbtn" id="openResumeBtn">View My Resume</a>
                     </div>
                 </div>
             </div>
@@ -55,6 +55,31 @@
                         compelling  designs  and  developing  technical  solutions,  with 
                         proficiency  in  digital  tools,  data  analytics,  and  software 
                         development—bridging creativity and innovation in diverse projects.</p>
+                </div>
+            </div>
+        </div>
+    </section> <!-- End of About Section -->
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-list">
+                <div class="experience-item">
+                    <h3>Chief Creative Officer</h3>
+                    <p><strong>Quadvare Technologies Pvt. Ltd.</strong> <span>September 2024 – March 2025</span></p>
+                    <ul>
+                        <li>Included in the development of the flagship product ZappQ.</li>
+                    </ul>
+                    <p class="contact-ref"><em>Contact: Mr. Muhammed Shahid – shahid@quadvare.com</em></p>
+                </div>
+                <div class="experience-item">
+                    <h3>Graphic Designer</h3>
+                    <p><strong>Creatido Designing Studio</strong> <span>June 2020 – August 2024</span></p>
+                    <ul>
+                        <li>Freelance graphic designer creating diverse, impactful designs for clients worldwide, including India, GCC countries, UK, and more.</li>
+                    </ul>
+                    <p class="contact-ref"><em>Contact: Mr. Ahmad Sinan – ahmadsinan32@gmail.com</em></p>
                 </div>
             </div>
         </div>
@@ -187,6 +212,37 @@
         </div>
     </footer>
 
+    <div id="resumeModal" class="resume-modal">
+        <div class="resume-modal-content">
+            <span class="resume-close" id="closeResumeBtn">&times;</span>
+            <iframe src="assets/Muhammed Muhsin P - Resume.pdf" frameborder="0"></iframe>
+        </div>
+    </div>
+    <script>
+        // Resume Modal Logic
+        const openBtn = document.getElementById('openResumeBtn');
+        const modal = document.getElementById('resumeModal');
+        const closeBtn = document.getElementById('closeResumeBtn');
+        const body = document.body;
+
+        openBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            modal.classList.add('show');
+            body.classList.add('blur-bg');
+        });
+
+        closeBtn.addEventListener('click', function() {
+            modal.classList.remove('show');
+            body.classList.remove('blur-bg');
+        });
+
+        window.addEventListener('click', function(e) {
+            if (e.target === modal) {
+                modal.classList.remove('show');
+                body.classList.remove('blur-bg');
+            }
+        });
+    </script>
     <script src="js/main.js"></script>
 </body>
 </html>

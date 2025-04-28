@@ -2,38 +2,49 @@
 
 # Portfolio Website
 
-This project is a portfolio website designed to showcase the work and skills of a graphic designer and computer science student. The website features a clean and modern design, with responsive layouts and engaging animations to enhance user experience.
+Welcome! This is the personal portfolio website for Muhammed Muhsin P, built to showcase my work in graphic design, video editing, UI/UX, and engineering. The site is designed to be visually appealing, easy to navigate, and fully responsive for all devices.
 
 ## Features
 
-- **Responsive Design**: The website is fully responsive, ensuring a seamless experience on devices of all sizes.
-- **Animations**: CSS and JavaScript animations are used to create dynamic interactions and visual appeal.
-- **Interactive Elements**: JavaScript functions handle user interactions, such as form submissions and navigation.
+- **Device-Friendly:** The layout adapts smoothly to phones, tablets, and desktops.
+- **Modern Animations:** Subtle CSS and JavaScript effects enhance the user experience.
+- **Interactive Elements:** Includes a contact form, smooth navigation, and a dynamic portfolio section.
 
-## File Structure
+## Project Structure
 
-- `assets/fonts`: Contains font files used for typography.
-- `assets/icons`: Contains icon files for visual elements.
-- `css/animations.css`: CSS rules for animations.
-- `css/style.css`: Main styles for layout, colors, and typography.
-- `css/responsive.css`: Styles for responsive design.
-- `js/animations.js`: JavaScript functions for triggering animations.
-- `js/main.js`: Main JavaScript entry point for initializing features.
-- `js/utils.js`: Utility functions for DOM manipulation and event handling.
-- `index.html`: Main HTML file for the website.
+- `assets/fonts/` – Custom fonts for unique typography.
+- `assets/icons/` – Icons used throughout the site.
+- `assets/images/` – Profile and other images.
+- `assets/works/` – Portfolio work images.
+- `css/style.css` – Main stylesheet for layout and design.
+- `css/works-style.css` – Styles for the works page.
+- `js/main.js` – JavaScript for navigation and form handling.
+- `js/works-popup.js` – Handles image popups in the works section.
+- `index.html` – Main landing page.
+- `works.html` – Detailed portfolio gallery.
 
-## Setup Instructions
+## Getting Started
 
-1. Clone the repository:
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/MuhsinMYou/portfolio.git
    ```
-   git clone <repository-url>
+2. **Navigate to the project folder:**
+   ```sh
+   cd portfolio
    ```
-2. Navigate to the project directory:
-   ```
-   cd portfolio-website
-   ```
-3. Open `index.html` in your web browser to view the website.
+3. **Open `index.html` in your browser to view the site.**
+
+## Customization
+
+- Update images in `assets/images/` and `assets/works/` to personalize the portfolio.
+- Edit text and sections in `index.html` and `works.html` as needed.
+- Adjust colors and layout in the CSS files to match your style.
+
+## Deployment
+
+This site can be deployed on GitHub Pages or any static hosting service. A GitHub Actions workflow is included for automatic deployment to Pages when you push to the `main` branch.
 
 ## License
 
-This project is licensed under the MIT License.
+MIT License. Feel free to use, modify, and share.
