@@ -201,12 +201,54 @@ body {
     font-size: 1.2rem;
 }
 
+/* Minimal Behance Section */
+.behance-buttons {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.behance-buttons h2 {
+    font-size: 2rem;
+    color: #e0e0e0;
+    margin-bottom: 1rem;
+    font-family: inherit;
+    text-align: center;
+}
+
+.behance-buttons a {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    border-radius: 10px;
+    background: #f39c12;
+    color: #181818;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.2s, color 0.2s;
+    text-align: center;
+}
+
+.behance-buttons a:hover {
+    background: transparent;
+    color: #f39c12;
+    border: 1px solid #f39c12;
+}
+
+@media (max-width: 600px) {
+    .behance-buttons h2 {
+        font-size: 1.2rem;
+    }
+    .behance-buttons a {
+        padding: 0.4rem 1rem;
+        font-size: 0.95rem;
+    }
+}
+
 /* Footer */
 .footer {
     background: #1f1f1f;
     color: #e0e0e0;
     text-align: center;
-    padding: 1.5rem 0;
+    padding: 1rem 0;
     box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.5);
 }
 
