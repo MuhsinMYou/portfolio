@@ -40,7 +40,7 @@ body {
     font-family: 'Poppins', serif;
     font-size: 1.7rem;
     font-weight: bold;
-    color: #2196f3;
+    color: #f39c12;
     text-decoration: none;
 }
 
@@ -62,7 +62,7 @@ body {
 }
 
 .nav-list a:hover {
-    color: #2196f3;
+    color: #f39c12;
     transform: scale(1.1);
 }
 
@@ -156,7 +156,7 @@ body {
     font-family: 'Montserrat', 'Playfair Display', serif;
     font-weight: 700;
     font-size: 2.7rem;
-    color: #2196f3;
+    color: #f39c12;
     margin-bottom: 0.5rem;
     letter-spacing: 1px;
 }
@@ -170,14 +170,14 @@ body {
 }
 
 .hero-content .dot {
-    color: #2196f3;
+    color: #f39c12;
     font-size: 1.2em;
     margin: 0 0.3em;
 }
 
 .hero-tagline {
     font-size: 1.1rem;
-    color: #64b5f6;
+    color: #815a1f;
     margin-bottom: 2rem;
     font-style: italic;
     letter-spacing: 0.2px;
@@ -202,29 +202,27 @@ body {
 }
 
 .contbtn {
-    background: linear-gradient(90deg, #2196f3 60%, #1976d2 100%);
+    background: linear-gradient(90deg, #f39c12 60%, #e67e22 100%);
     color: #121212;
-    border: 1px solid #2196f3;
+    border: 1px solid #f39c12;
 }
 
 .contbtn:hover {
     background: transparent;
-    color: #2196f3;
-    transform: translateY(-2px) scale(1.04);
-    box-shadow: 0 4px 18px rgba(33, 150, 243, 0.18);
+    color: #f39c12;
+    box-shadow: 0 4px 18px rgba(243, 156, 18, 0.18);
 }
 
 .resbtn {
     background: transparent;
-    color: #2196f3;
-    border: 1px solid #2196f3;
+    color: #f39c12;
+    border: 1px solid #f39c12;
 }
 
 .resbtn:hover {
-    background: #2196f3;
-    color: #0d1b2a;
-    transform: translateY(-2px) scale(1.04);
-    box-shadow: 0 4px 18px rgba(33, 150, 243, 0.18);
+    background: #f39c12;
+    color: #232526;
+    box-shadow: 0 4px 18px rgba(243, 156, 18, 0.18);
 }
 
 @media (max-width: 600px) {
@@ -297,7 +295,7 @@ body {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    color: #2196f3;
+    color: #f39c12;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
@@ -338,13 +336,13 @@ body {
     background: rgba(35, 35, 35, 0.95);
     border-radius: 18px;
     padding: 2rem 2.5rem;
-    border-left: 5px solid #2196f3;
+    border-left: 5px solid #f39c12;
     position: relative;
     transition: transform 0.18s, box-shadow 0.18s;
 }
 
 .experience-item h3 {
-    color: #2196f3;
+    color: #f39c12;
     margin-bottom: 0.2rem;
     font-size: 1.35rem;
     letter-spacing: 0.5px;
@@ -366,7 +364,7 @@ body {
 
 .experience-item ul {
     margin: 0.7rem 0 0 1.2rem;
-    color: #b3e5fc;
+    color: #f7ca8a;
     font-size: 1.03rem;
     list-style: disc;
     padding-left: 1.1rem;
@@ -377,10 +375,10 @@ body {
     font-size: 0.97rem;
     margin-top: 0.7rem;
     font-style: italic;
-    border-left: 3px solid #2196f3;
+    border-left: 3px solid #f39c12;
     padding-left: 0.7rem;
     display: block;
-    background: rgba(33,150,243,0.04);
+    background: rgba(243,156,18,0.04);
     border-radius: 0 6px 6px 0;
 }
 
@@ -423,7 +421,7 @@ body {
 
 .skill-card i {
     font-size: 2.5rem;
-    color: #2196f3;
+    color: #f39c12;
     margin-bottom: 1rem;
 }
 
@@ -446,7 +444,7 @@ body {
 
 .skills-category h3 {
     font-size: 1.4rem;
-    color: #2196f3;
+    color: #f39c12;
     margin-bottom: 1.5rem;
     display: flex;
     align-items: center;
@@ -474,7 +472,7 @@ body {
 
 .bar-fill {
     height: 100%;
-    background: linear-gradient(90deg, #2196f3 60%, #1976d2 100%);
+    background: linear-gradient(90deg, #f39c12 60%, #e67e22 100%);
     border-radius: 6px 0 0 6px;
     transition: width 1s cubic-bezier(.4,2,.6,1);
 }
@@ -527,7 +525,7 @@ body {
     transform: translate(-50%, -50%);
     font-size: 2rem;
     font-weight: bold;
-    color: #2196f3;
+    color: #f39c12;
     text-decoration: none;
     opacity: 0;
     transition: opacity 0.5s ease;
@@ -559,7 +557,7 @@ body {
     box-shadow: 0 6px 32px 0 rgba(243, 156, 18, 0.08), 0 1.5px 8px 0 rgba(0,0,0,0.18);
     text-align: center;
     transition: transform 0.18s, box-shadow 0.18s;
-    border-top: 4px solid #2196f3;
+    border-top: 4px solid #f39c12;
     position: relative;
 }
 
@@ -570,12 +568,12 @@ body {
 
 .service-card i {
     font-size: 2.5rem;
-    color: #2196f3;
+    color: #f39c12;
     margin-bottom: 1rem;
 }
 
 .service-card h3 {
-    color: #2196f3;
+    color: #f39c12;
     font-size: 1.3rem;
     margin-bottom: 1rem;
     font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
@@ -598,7 +596,7 @@ body {
 
 .service-card ul li::before {
     content: "•";
-    color: #2196f3;
+    color: #f39c12;
     margin-right: 0.5em;
     font-size: 1.2em;
     vertical-align: middle;
@@ -621,14 +619,14 @@ body {
 }
 .service-header h3 {
     margin: 0;
-    color: #2196f3;
+    color: #f39c12;
     font-size: 1.3rem;
     font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
     letter-spacing: 0.5px;
 }
 .arrow {
     font-size: 1.5rem;
-    color: #2196f3;
+    color: #f39c12;
     transition: transform 0.2s;
 }
 .service-card .service-content {
@@ -695,7 +693,7 @@ body {
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-    border-color: #2196f3;
+    border-color: #f39c12;
     outline: none;
 }
 
@@ -703,7 +701,7 @@ body {
     width: 200px; /* Fixed width for button */
     margin: 0 auto; /* Center the button */
     display: block; /* Make button a block element */
-    background: #2196f3;
+    background: #f39c12;
     color: #121212;
     padding: 0.75rem;
     border: none;
@@ -713,7 +711,7 @@ body {
 }
 
 .contact-form button:hover {
-    background: #1976d2;
+    background: #e67e22;
     transform: translateY(-3px);
 }
 
@@ -734,7 +732,7 @@ body {
 }
 
 .footer .social-links a:hover {
-    color: #2196f3;
+    color: #f39c12;
     transform: scale(1.2);
 }
 
